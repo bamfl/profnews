@@ -48,8 +48,8 @@ function scripts() {
 		// 'node_modules/baguettebox.js/dist/baguetteBox.js',
 		// 'node_modules/fullpage.js/dist/fullpage.js',
 		// 'node_modules/fullpage.js/vendors/scrolloverflow.js',
-        'node_modules/jquery/dist/jquery.js',
-        'app/js/main.js'
+		// 'node_modules/jquery/dist/jquery.js',
+		'app/js/main.js'
     ])
         .pipe(concat('main.min.js'))
         .pipe(uglify())
